@@ -15,7 +15,7 @@ wget https://download.pytorch.org/models/resnet50-0676ba61.pth -P weights/
 下载在imagenet上预训练的resnet50的模型权重，用于微调训练。
 
 ## 最佳模型权重
-从google drive 下载最佳模型权重，放到weights目录下，命名为best_model.pth。这是已经微调过的模型权重，可直接用于caltech-101的测试。
+从google drive https://drive.google.com/file/d/1oaoxORsqQ_wyWHX6VQv4cbLXRYzakU27/view?usp=sharing 下载最佳模型权重，放到weights目录下，命名为best_model.pth。这是已经微调过的模型权重，可直接用于caltech-101的测试。
 
 # 训练
 运行以下命令，使用默认超参数完成训练并测试：
